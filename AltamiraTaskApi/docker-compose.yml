@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+
+   websrv:
+     build: .
+     ports:
+       - "80:80"
+     restart: always 
+
+   mssqldb:
+     image: mcr.microsoft.com/mssql/server:2017-CU21-ubuntu-16.04
+     environment:
+       ACCEPT_EULA: "Y"
+       SA_PASSWORD: "Altamira1111!!"
+       MSSQL_PID: Express
+     ports:
+        - "1433:1433"
+
+   redis_image:
+     image: redis
+     container_name: cache
+     ports:
+       - "6379:6379"
