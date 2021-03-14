@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.NetCoreWebApi", "AltamiraTaskApi\Asp.NetCoreWebApi.csproj", "{5751817F-C740-46AE-8AB3-332DA33E59C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.NetCoreWebApi", "dotnetCoreWebApi\Asp.NetCoreWebApi.csproj", "{5751817F-C740-46AE-8AB3-332DA33E59C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
